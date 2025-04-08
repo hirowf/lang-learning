@@ -56,4 +56,17 @@ func main() {
 	number %= 3
 
 	fmt.Println(number)
+
+	// operador ternario
+	fmt.Println("-----operador ternario-----")
+
+	// text := number > 5 ? "Maior que 5" : "menor que 5"
+	var text string
+	if number > 5 {
+		text = "Maior que 5"
+	} else {
+		text = "Menor que 5"
+	}
+	fmt.Println(text)
+
 }
